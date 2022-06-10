@@ -1,0 +1,32 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "查询小区",
+				"app-plus": {
+					"titleNView": {
+						"padding-right": "20px",
+						"buttons": [{
+							"text": "新增小区",
+							"fontSize": "28rpx",
+							"width": "auto" // 防止按钮显示不全
+						}]
+					}
+				}
+			}
+		}, {
+			"path": "pages/home/eidt",
+			"style": {
+				"navigationBarTitleText": "编辑",
+				"enablePullDownRefresh": false
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "外卖楼号分布查询",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
